@@ -8,7 +8,7 @@ em sua incrição:
 Nome: {{ name }}
 CPF: {{ cpf }}
 Email: {{ email }}
-Telefone: {{ phone}}
+Telefone: {{ phone }}
 
 Em até 48 horas úteis, a nossa equipe entrará
 em contato com você para concluirmos a sua matrícula.
