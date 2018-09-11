@@ -1,10 +1,10 @@
 # EVENTEX
 
-Sistemas de Eventos encomendado pela Morena.
+Sistemas de Eventos do curso Welcome to the Django.
 
 ## Como desenvolver?
 
-1. CLone o repositório.
+1. Clone o repositório.
 2. Crie um virtualenv com Python 3.5.
 3. Ative o virtualenv.
 4. Instale as dependênias.
@@ -15,14 +15,14 @@ Sistemas de Eventos encomendado pela Morena.
 ```console
 git clone git@github.com:marcosvmello/eventex-marcosvmello.git wttd
 cd wttd
-pyhton -m virtualenv .wttd
+python -m virtualenv .wttd
 source wttd/bin/activate
 pip install -r requirements-dev.txt
 cp contrib/env-sample.env
 python manage.py test
 ```
 
-##Como fazer o deploy?
+## Como fazer o deploy?
 
 1. Crie uma instância no Heroku
 2. Envie as configurações para o Heroku
