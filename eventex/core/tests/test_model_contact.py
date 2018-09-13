@@ -44,11 +44,11 @@ class ContactManagerTest(TestCase):
         s.contact_set.create(Kind=Contact.PHONE, value='21-123456789')
 
     def test_emails(self):
-        qs = Contact.emails.all()
+        qs = Contact.objects.emails()
         expected = ['marcos@santos.com']
         self.assertQuerysetEqual(qs, expected, lambda o: o.value)
 
     def test_phones(self):
-        qs = Contact.phones.all()
+        qs = Contact.objects.phones()
         expected = ['21-123456789']
         self.assertQuerysetEqual(qs, expected, lambda o: o.value)
